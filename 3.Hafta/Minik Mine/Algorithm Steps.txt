@@ -1,0 +1,23 @@
+ALGORITHM STEPS : 
+
+- The 1st number value is entered into the input.
+
+- With a number type input, the data is entered as a number.
+
+- The 2nd number value is entered into the input.
+
+- With a number type input, the data is entered as a number.
+
+- Compare button is clicked
+
+- If numbers are not entered in the inputs, the user is warned.
+
+- If numeric values are entered into the inputs, the comparison process is started.
+
+- In the first condition; If the 1st number and the 2nd number are equal, the result of 1st number = 2nd number is displayed on the screen.
+
+- In the second condition; If the 1st number is greater than the 2nd number, the result of the 1st number > 2nd number is displayed on the screen.
+
+- In the third condition; Since the 2nd number is greater than the 1st number, the result of 1st number < 2nd number is displayed on the screen
+
+- The program ends
