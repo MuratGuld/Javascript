@@ -1,0 +1,47 @@
+/* I shaped the wagons */
+section div {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 50px;
+    background-color: rgb(64, 76, 180);
+    color: white;
+    font-size: 30px;
+    font-weight: 900;
+    border-radius: 10px;
+    margin: 40px 15px
+}
+
+/* I put in a box the guide paragraph */
+#guideParagraph {
+    font-size: 25px;
+    white-space: pre-wrap;
+    margin-left: 20px;
+    line-height: 50px;
+    border: 10px solid rgb(107, 107, 161);
+    width: 500px;
+    height: 150px;
+    padding: 20px;
+    border-radius: 20px;
+    font-weight: 900;
+}
+
+/* I made the restart button invisible. After 4 attempt, the button will be visible */
+button {
+    display: none;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(64, 76, 180);
+    margin: 20px 22px;
+}
+
+/* If user is successfull / unsuccessfull, we will add these classes to the paragraph */
+.success {
+    color: rgb(44, 163, 44);
+}
+.fail {
+    color: red;
+}
