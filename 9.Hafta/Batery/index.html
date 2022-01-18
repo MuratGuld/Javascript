@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Battery</title>
+    <!-- css file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Our div tag represents the battery and has 3 levels -->
+        <div id="battery">            
+            <div id="battery-top"></div>
+            <div id="high-level" class="level"></div>
+            <div id="middle-level" class="level"></div>
+            <div id="low-level" class="level"></div>
+            <p id="paragraph"></p>
+        </div>
+        <div>
+            <!-- We control the battery with charge and drain buttons -->
+            <button type="button" id="charge" class="button">charge (+)</button>
+            <button type="button" id="drain" class="button">drain (-)</button>
+        </div>
+    </div>    
+    <!-- script file -->
+    <script src="app.js"></script>
+</body>
+</html>
