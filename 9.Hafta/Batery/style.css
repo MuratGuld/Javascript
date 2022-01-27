@@ -1,0 +1,51 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+#battery-top {
+    background-color: black;
+    height: 20px;
+    width: 80px;
+    margin-left: 58px;
+}
+
+#battery {
+    height: 300px;
+    width:200px;
+    border-radius: 20px;
+}
+
+#battery .level {
+    height: 90px;
+    border: 5px solid black;
+    border-bottom: 0;
+    transition: background-color 0.7s;
+}
+
+#battery .level:nth-child(4) {
+    border-bottom: 5px solid black;
+}
+
+.button {
+    color: white;
+    background-color: rgb(74, 135, 185);
+    font-size: 20px;
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    border: 0;
+    display: block;
+    margin:30px 30px 30px 200px;
+    font-weight: 600;
+}
+
+#paragraph {
+    font-size: 40px;
+    color: black;
+    font-weight: 900;
+    text-align: center;
+}
